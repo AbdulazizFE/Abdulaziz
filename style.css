@@ -17,7 +17,7 @@
 }
 
 html {
- 
+  scroll-behavior: smooth;
   box-sizing: border-box;
   font-size: 62.5%;
 }
@@ -229,6 +229,8 @@ li {
 .hero h1 {
   font-size: 9rem;
   margin: 0;
+  font-weight: bold;
+  color: var(--customColor);
 }
 
 .hero h4 {
@@ -274,9 +276,6 @@ li {
 
 
 @media only screen and (max-width: 567px) {
-
-
-
 
   .hero {
     top: 30%;
@@ -449,7 +448,7 @@ li {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 .right h1 {
@@ -514,7 +513,7 @@ li {
 }
 
 .services-center {
-  display: grid;
+  display:grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 2rem;
 }
