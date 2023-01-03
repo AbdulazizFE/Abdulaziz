@@ -1,3 +1,7 @@
+//get the current year
+const year = document.getElementById("year");
+year.textContent = new Date().getFullYear();
+
 // Fix Nav
 const navBar = document.querySelector(".nav");
 const navHeight = navBar.getBoundingClientRect().height;
@@ -110,7 +114,7 @@ new TypeIt("#type1", {
   loop: true,
   waitUntilVisible: true,
 })
-  .type(".Net Developer", { delay: 400 })
+  .type(".Net Utvecklare", { delay: 400 })
   .pause(500)
   .delete(9)
 

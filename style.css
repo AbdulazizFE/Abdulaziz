@@ -26,9 +26,10 @@ body {
   font-family: "Poppins", sans-serif;
   font-size: 1.6rem;
   font-weight: 400;
-  background-color: #fff;
+  background-color: #ffff;
+
   color: #222;
-  position:relative;
+  position: relative;
   z-index: 1;
 }
 
@@ -107,7 +108,7 @@ li {
 }
 
 .logo h1 {
-  font-size: 2.5rem;
+  font-size: 2.4rem;
   color: #fff;
 }
 
@@ -222,8 +223,8 @@ li {
 }
 
 .hero h3 {
-  font-weight: 400;
-  font-size: 2rem;
+  font-weight: bold;
+  font-size: 2.3rem;
 }
 
 .hero h1 {
@@ -278,20 +279,26 @@ li {
 @media only screen and (max-width: 567px) {
 
   .hero {
-    top: 30%;
+    top: 90%;
     transform: translate(0, -50%);
   }
 
   .hero h1 {
+    font-weight: 900;
     font-size: 4.5rem;
+
   }
 
   .hero h3 {
+    text-align: center;
     font-size: 1.7rem;
+    color: #ffff;
   }
 
   .hero h4 {
-    font-size: 1.7rem;
+    font-weight: 900;
+    font-size: 1.5rem;
+    color: #ffff;
   }
 }
 
@@ -405,6 +412,7 @@ li {
 /* About */
 
 .section {
+
   padding: 5rem 0 7rem 0;
   overflow-x: hidden;
 }
@@ -513,7 +521,7 @@ li {
 }
 
 .services-center {
-  display:grid;
+  display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 2rem;
 }
@@ -525,6 +533,7 @@ li {
   border-radius: 5px;
 
 }
+
 .service {
   color: #fff;
   background-color: rgb(53, 52, 52);
@@ -785,6 +794,7 @@ form h2 {
 }
 
 .btn-form {
+  cursor: pointer;
   border-radius: 10px;
   background-color: #a1a1a2;
   border: none;
