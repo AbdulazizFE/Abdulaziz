@@ -299,6 +299,7 @@ li {
     font-weight: 900;
     font-size: 1.5rem;
     color: #ffff;
+    margin-bottom: 40px;
   }
 }
 
@@ -412,15 +413,8 @@ li {
 /* About */
 
 .section {
-
-  padding: 5rem 0 7rem 0;
   overflow-x: hidden;
 }
-
-.about {
-  margin-top: 5rem;
-}
-
 .about-center {
   display: grid;
   grid-template-columns: 1.3fr 1fr;

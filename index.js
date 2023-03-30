@@ -126,16 +126,16 @@ new TypeIt("#type2", {
   waitUntilVisible: true,
 })
 
-  .type("Application developer", { delay: 400 })
+  .type("Applikation Utvecklare", { delay: 400 })
   .pause(500)
   .delete(23)
-  .type("Backend developer", { delay: 400 })
+  .type("Backend Utvecklare", { delay: 400 })
   .pause(500)
   .delete(22)
-  .type("Front-end developer", { delay: 400 })
+  .type("FrontEnd Utvecklare", { delay: 400 })
   .pause(500)
   .delete(22)
-  .type("System developer", { delay: 400 })
+  .type("System Utvecklare", { delay: 400 })
   .pause(500)
   .delete(22)
   .go();
